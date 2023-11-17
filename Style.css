@@ -1,0 +1,45 @@
+.text-center{
+    background: linear-gradient(-60deg, #ea8532, #cb8b00, #ffc400);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 85vh;
+}
+
+.footer{
+    background: linear-gradient(-60deg, #ba5c0f, #cb8b00, #fff200);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.lead{
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Caveat', cursive;
+}
+
+span{
+    color: #FAF1E4;
+}
+
+#bio{
+    background: linear-gradient(-60deg, #ffb300, #feb71f, #be7602);
+}
+
+#robot{
+    width: 200px;
+}
