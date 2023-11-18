@@ -2,7 +2,6 @@
     background: linear-gradient(-60deg, #ea8532, #cb8b00, #ffc400);
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite;
-	height: 85vh;
 }
 
 .footer{
