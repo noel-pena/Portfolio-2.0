@@ -18,6 +18,6 @@ function tellTime(){
     }
 };
 
-document.getElementById("foot").innerHTML = "Copyright " + year;
+document.getElementById("foot").innerHTML = "Copyright © " + year;
 
 document.getElementById("greet").innerText = tellTime();
