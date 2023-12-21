@@ -22,6 +22,15 @@
 	}
 }
 
+#textbox{
+    background: linear-gradient(-60deg, #ea8532, #cb8b00, #ffc400);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	border-style: none;
+	border-bottom-left-radius: 2%;
+	border-bottom-right-radius: 2%;
+}
+
 #foot{
 	text-align: center;
 }
